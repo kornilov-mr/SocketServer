@@ -38,3 +38,4 @@ build/
 .DS_Store
 /src/main/java/server/data/chats.json
 /.idea/
+/.idea/

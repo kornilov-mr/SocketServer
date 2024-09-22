@@ -4,53 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7beb15-743f-4f8d-8bb3-ef8793ac60cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/ConsoleWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/HelpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/command/ConsoleCommandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/parsers/LineParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/parsers/Parsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/ChatSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/ClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/MainRequestSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/ServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/mainSocket/MainResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/mainSocket/MainResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/mainSocket/MainResponseSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/sockets/SocketManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/ChatManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/ChatSaverLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/ChatSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/ChatSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/messages/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/chat/messages/MessageComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/CommandEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/CommandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/CommandRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/chatCommand/ChatCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/chatCommand/command/GetAllMessagesFromChatCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/chatCommand/command/PostMessageInChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/mainLineCommand/MainLineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/mainLineCommand/commands/AddChatCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/mainLineCommand/commands/CloseSocketCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/mainLineCommand/commands/GetAllChatNamesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/command/mainLineCommand/commands/ShowHelpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/exceptions/ExceptionCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/exceptions/TransmissionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+    <list default="true" id="4c7beb15-743f-4f8d-8bb3-ef8793ac60cd" name="Changes" comment="init Commit">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -86,6 +47,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ThinkPad\Desktop\SocketServer" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Tests">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
@@ -152,7 +118,21 @@
       <option name="presentableId" value="Default" />
       <updated>1726223824927</updated>
     </task>
+    <task id="LOCAL-00001" summary="init Commit">
+      <option name="closed" value="true" />
+      <created>1726681890390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726681890390</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initCommit" />
+    <MESSAGE value="init Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -194,17 +174,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Runner.java</url>
-          <line>5</line>
+          <line>4</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Runner.java</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/Client.java</url>
-          <line>38</line>
+          <line>37</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
